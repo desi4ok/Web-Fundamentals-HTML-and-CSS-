@@ -1,0 +1,91 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma;
+	text-decoration: none;
+	color: black;
+}
+
+table, td, th{
+	border: 1px solid black;
+	font-size: 20px;
+}
+
+#title {
+	font-size: 45px;
+}
+
+tr {
+	height: 100px;
+}
+
+td, th {
+	width: 100px;
+}
+
+.topLeft{
+	text-align: left;
+	vertical-align: text-top;
+	padding: 5px;
+}
+
+.topRight {
+	text-align: right;
+	vertical-align: text-top;
+	padding: 5px;
+}
+
+.topCenter {
+	text-align: center;
+	vertical-align: text-align: left;
+	padding: 5px;
+}
+
+.leftMiddle {
+	text-align: left;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+.bottomMiddle {
+	text-align: center;
+	vertical-align: bottom;
+	padding: 5px;
+}
+
+.bottomRight {
+	height: 120px;
+	text-align: right;
+	vertical-align: bottom;
+	padding: 5px;
+}
+
+.bottomLeft {
+	height: 120px;
+	text-align: left;
+	vertical-align: bottom;
+	padding: 5px;
+}
+
+.rightMiddle {
+	text-align: right;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+#innerTable {
+	margin: 5px;
+	font-size: 17px;
+}
+
+.tdInnerTable {
+	font-size: 12px;
+	text-align: center;
+	vertical-align: middle;
+	height: 10px;
+}
+
+.trInnerTable {
+	height: 60px;
+}
+

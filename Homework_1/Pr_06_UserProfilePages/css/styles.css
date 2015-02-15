@@ -1,0 +1,42 @@
+body {
+	background-color: #ADD8E6;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+ul {
+	font-size: 22px;
+	color: #551A8B;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 40px;
+}
+img {
+	border: 1.5px solid #000000;
+}
+
+.bottom {
+	font-size: 22px;
+}
+.darker {
+	font-weight: bold;
+}
+
+.italized {
+	color: #000000;
+	font-style: italic;
+	list-style-type: none;
+	margin-left: -3%;
+	line-height: 30px;
+}
+
+.offset {
+	color: #000000;
+	font-style: normal;
+	list-style-type: none;
+}
+

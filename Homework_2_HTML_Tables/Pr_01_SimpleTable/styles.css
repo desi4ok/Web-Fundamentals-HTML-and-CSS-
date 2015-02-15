@@ -1,0 +1,39 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma;
+}
+
+table {
+	border: 1px solid gray;
+	font-size: 17px;
+    width: 410px;
+    position: relative;
+    top: 5px;
+    left: 5px;;
+}
+
+table td, table th {
+	border: none;
+}
+
+
+table th {
+	font-size: 30px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+p {
+	display: block;
+}
+
+img {
+	
+	padding-left: 7px;
+	padding-right: 15px;
+}
+
+.bolded {
+	font-weight: bolder;
+}
