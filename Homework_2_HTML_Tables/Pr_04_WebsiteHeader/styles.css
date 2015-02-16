@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma;
+}
+
+#wrapper {
+    margin: auto;
+    background-color: #234465;
+}
+
+table {
+    background-color: #234465;
+}

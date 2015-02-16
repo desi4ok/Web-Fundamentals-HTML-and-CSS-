@@ -1,0 +1,64 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table, td, th{
+	border: 1px solid black;
+	font-size: 10px;
+}
+
+button {
+	background-image: url("buttonBackground.jpg");
+	background-repeat: repeat-x;
+	width: 98%;
+	height: 85px;
+	font-size: 17px;
+	color: #2023ed;
+	border-radius: 5px;
+}
+
+thead button {
+   font-size: 23px; 
+   font-weight: 600;
+}
+
+#beerButton {  
+    width: 100%;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+tr {
+	height: 90px;
+}
+
+td, th {
+	width: 90px;
+}
+
+.innerButton {
+	background-image: url("smallButtnonBackground.jpg");
+	background-repeat: repeat-x;
+	width: 98%;
+	height: 40px;
+	font-size: 13px;
+	
+}
+
+#innerTable {
+    border: none;
+}
+
+.trInnerTable {
+	height: 30px;
+}
+
+.tdInnerTable {
+    border: none;
+}
+

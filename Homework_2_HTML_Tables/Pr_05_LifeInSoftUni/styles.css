@@ -20,7 +20,7 @@ tr {
 }
 
 td, th {
-	width: 100px;
+	width: 90px;
 }
 
 .topLeft{
@@ -37,7 +37,7 @@ td, th {
 
 .topCenter {
 	text-align: center;
-	vertical-align: text-align: left;
+	vertical-align: text-top;
 	padding: 5px;
 }
 
