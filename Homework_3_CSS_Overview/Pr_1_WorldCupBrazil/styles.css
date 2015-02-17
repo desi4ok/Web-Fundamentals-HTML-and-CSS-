@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma;
+    font-size: 12px;
+}
+
+#wrapper {
+    background-color: #00923e;
+    margin: auto;
+    padding: 7px;
+    display: table;
+}
+
+img {
+    height: 10px;
+    width:15px;
+}
+
+table {
+    border-radius: 15px;
+    position: relative;
+    margin: 7px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+thead th {
+    background-color: #f8c711;
+}
+
+table tr {
+    height: 45px;
+}
+
+thead tr th#countryRight {
+    text-align: right;
+    font-size: 15px;
+    border-radius: 13.5px 0px 0px 0px;
+    width: 100px;
+}
+
+thead tr th#countryLeft {
+    text-align: left;
+    font-size: 15px;
+    width: 100px;
+}
+
+thead tr th#rightTopRadius {
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0px 13.5px 0px 0px;
+}
+
+thead tr th.thMid {
+    text-align: center;
+    font-size: 15px;
+}
+
+tbody tr.even td{
+    background-color: #c8c8c8;
+}
+
+tbody tr.odd td{
+    background-color: #ffffff;
+}
+
+tbody tr td.right {
+    text-align: right;
+    padding-right: 5px;
+    width: 110px;
+}
+
+tbody tr td.tdMid {
+    text-align: center;
+}
+
+tbody tr td.left {
+    text-align: left;
+    padding-left: 5px;
+    width: 110px;
+}
+
+tbody tr td#leftBottomRadius {
+    text-align: right;
+    padding-right: 5px;
+    border-radius: 0px 0px 0px 13.5px;
+}
+
+tbody tr td.button#rightBottomRadius {
+    border-radius: 0px 0px 13.5px 0px;
+}
+
+tbody tr td.button {
+    text-align: center;
+    width: 50px;
+}
+
+tbody tr td input.betRed {
+    width: 35px;
+    height: 35px;
+    background-image: url("img/bet-red.png");
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+tbody tr td input.betGreen {
+    width: 35px;
+    height: 35px;
+    background-image: url("img/bet-green.png");
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
