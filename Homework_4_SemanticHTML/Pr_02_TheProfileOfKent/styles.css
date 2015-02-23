@@ -1,0 +1,63 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Tahoma;
+}
+
+#wrapper {
+	margin: 10px auto;
+	padding: 40px;
+	background: #FFC0CB;
+	font-size: 10px;
+	width: 1000px;
+	height: auto;
+	border-radius: 10px;
+}
+
+article {
+	display: inline-table;
+	vertical-align: top;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+h2 {
+	padding-bottom: 5px;
+}
+
+article#left, article#left img {
+	width: 250px;
+}
+
+meter {
+	width: 80%;
+}
+
+p {
+	font-size: 15px;
+}
+
+article#mid {
+	width: 250px;
+	padding: 0px 15px 0px 15px;
+}
+
+article#mid div {
+	background: black;
+	height: 100px;
+	padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	margin: 10px auto;
+	background: black;
+	width: 750px;
+	border-radius: 10px;
+	font-family: Tahoma;
+	color: #F9FFFB;
+	padding: 30px;
+}
+
+h1 {
+	color: #F3C408;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+article {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+iframe {
+	width: 400px;
+	height: 230px;
+	border: 1px solid #F3C408;
+}
+
+
+a {
+	text-decoration: none;
+	font-size: 28px;
+	font-style: italic;
+	color: #F9FFFB;
+	padding-left: 30px;
+}

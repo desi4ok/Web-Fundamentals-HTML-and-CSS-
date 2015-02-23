@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#wrapper {
+    margin: 10px auto;
+    width: 750px;
+    height: 250px;
+    border-top: 7px dotted #ffff1d;
+    border-left: 7px dashed #ff0000;
+    border-bottom: 10px double #0000ff;
+    border-right: 20px solid #008000;
+   }
+   
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    text-shadow: 10px 20px 17px #ADAEAE;
+}
+
+div#center {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border: 3px solid blue;
+    border-radius: 70px;
+    text-align: center;
+}
+
+div#center:before {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   border-radius: 70px;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;
+   border: 3px solid green;
+   background: yellow;
+}
+
+div#center:after {
+   content: "";
+   position: absolute;
+   z-index: -1;
+   border-radius: 70px;
+   top: 5px;
+   left: 5px;
+   right: 5px;
+   bottom: 5px;
+   border: 3px solid red;
+   background: white;
+}
+ 
+p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.button {
+    background: #DA971E;
+    width: 250px;
+    height: 25px;
+    display: inline-block;
+    margin: 20px 5px 5px 5px;
+    border-left: 4px solid #FFAA00;
+    border-top: 4px solid #FFAA00;
+    border-right: 4px solid #AF7400;
+    border-bottom: 4px solid #AF7400;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+#smallCyr {
+	position: absolute;
+	top: 40px;
+	left: 570px;
+    background: #ADAEAE;
+    width: 40px;
+    height: 40px;
+    border-radius: 90%;
+    opacity: 0.7;
+}
+
+#smallCyr div {
+	position: inherit;
+	width: 31px;
+	height: 31px;
+	border: 4px dashed white;
+	border-radius: 90%;
+}
+
+#bigCyr {
+	position: absolute;
+	top: -7px;
+	left: 620px;
+    background: #ADAEAE;
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+    opacity: 0.7;
+}
+
+#bigCyr div{
+	position: inherit;
+	width: 40px;
+	height: 40px;
+	border: 4px dashed white;
+	border-radius: 90%;
+}
+
+#coolCyr {
+	position: absolute;
+	top: -70px;
+	left: 680px;
+    background: #ADAEAE;
+    width: 150px;
+    height: 80px;
+    border-radius: 42%;
+    opacity: 0.7;
+}
+
+#coolCyr div {
+	position: inherit;
+	width: 141px;
+	height: 63px;
+	border: 4px dashed white;
+	border-radius: 46%;
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+	padding-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
