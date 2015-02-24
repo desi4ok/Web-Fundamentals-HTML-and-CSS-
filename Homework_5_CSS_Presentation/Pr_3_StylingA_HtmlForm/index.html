@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link type="text/css" rel="stylesheet" href="styles.css" />
+        <title>Styling A HTML Form</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <form>
+                <fieldset>
+                    <legend>Step 1: Ypur details</legend>
+                    <div>
+                        <label for="name">Name</label>
+                        <input name="name" type="text" placeholder="First and last name" pattern="[A-z- ]+" required />
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input name="email" type="email" placeholder="example@domain.com" pattern="\b[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,4}\b" required />
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input name="phone" type="tel" placeholder="e.g. +447500000000" pattern=pattern="[0-9+ ]+" required />
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Step 2: Delivery address</legend>
+                    <div id="textareaDiv">
+                        <label for="address">Address</label>
+                        <textarea name="address"></textarea>
+                    </div>
+                    <div>
+                        <label for="post-code">Post code</label>
+                        <input name="post-code" type="text" pattern="[0-9]+" />
+                    </div>
+                    <div>
+                        <label for="country">Country</label>
+                        <input name="country" type="text" pattern="[A-z- ]+" />
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Step 3: Card details</legend>
+                    <div id="cardType">
+                        <label for="card-type">Card type</label>
+                        <div >
+                            <input name="visa" type="radio" required=""/>
+                            <label for="visa">VISA</label>
+                            <input name="amEx" type="radio" />
+                            <label for="amEx">AmEx</label>
+                            <input name="mastercard" type="radio" />
+                            <label for="mastercard">Mastercard</label>
+                       </div> 
+                    </div>
+                    <div>
+                        <label for="card-number">Card number</label>
+                        <input name="card-number" type="text" title="Can contain 10 to 19 digits" pattern="[0-9]{10,19}" required=""/>
+                    </div>
+                    <div>
+                        <label for="security-code">Security code</label>
+                        <input name="security-code" type="text" title="Can contain 3 to 5 digits" pattern="[0-9]{3,5}" required=""/>
+                    </div>
+                    <div>
+                        <label for="card-name">Name on card</label>
+                        <input name="card-name" type="text" placeholder="exact name as on the card" pattern="[A-z- ]+" required=""/>
+                    </div>
+                </fieldset>
+                <input type="submit" value="BUY IT!" />
+            </form>
+        </div>
+    </body>
+</html>
