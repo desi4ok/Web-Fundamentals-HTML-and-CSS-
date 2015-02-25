@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Simple Form</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>Enter the system</h1>
+                <p>It is necessary to login in Your account in order to sign in for the course</p>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>ARE YOU NEW? <span>REGISTER</span></legend>
+                    <div>
+                        <input name="name" type="text" title="Please, enter a valid name!" 
+                        placeholder="User name" pattern="[A-z- ]+" required />
+                        <input name="email" type="email" placeholder="example@domain.com" 
+                        title="Please, enter a valid e-mail!" pattern="\b[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,4}\b" required />
+                        <input name="password" type="password" placeholder="Password"  
+                        title="Please, enter a valid password" pattern="[A-z0-9.-]+" required />
+                        <input name="confirm-password" type="password" placeholder="Confirm Password" 
+                        title="Please, enter a valid password" pattern="[A-z0-9.-]+" required />
+                        <input id="register" type="submit" value="Register" />
+                    </div>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>ALREADY A STUDENT? LOGIN</legend>
+                    <div>
+                        <input name="name" type="text" title="Please, enter a valid name!" 
+                        placeholder="User name" pattern="[A-z- ]+" required />
+                         <input name="password" type="password" placeholder="Password" 
+                         title="Please, enter a valid password" pattern="[A-z0-9.-]+" required />
+                        <input name="remember-pass" type="checkbox" />
+                        <label for="remember-pass">Remember me?</label>
+                        <input id="login" type="submit" value="Login" />
+                        <a href="#" id="show_hide"><span>Forgot password?</span></a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

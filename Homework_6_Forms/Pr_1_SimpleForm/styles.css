@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+#wrapper {
+    margin: 10px auto;
+    width: 55%;
+    height: auto;
+    background: #eeeeee;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 25px;
+    color: #234465;
+    padding-bottom: 12px;
+}
+
+p {
+    font-size: 13px;
+    color: gray;
+}
+
+form {
+    display: inline-table;
+    width: 45%;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+    form:first-of-type legend {
+        color: gray;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 8px;
+    }
+    
+        form:first-of-type legend span{
+            color: #234465;
+        }
+    
+    form:last-of-type{
+        background: #234465;
+    }
+    
+        form:last-of-type legend {
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            padding-left: 8px;
+        }
+    
+fieldset {
+    height: 236px;
+    margin: 10px;
+    border: none;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 300px;
+    height: 30px;
+    margin:7px;
+}
+
+input#register {
+    border: 2px solid black;
+    font-size: 16px;
+    width: 130px;
+    height: 30px;
+    margin-left: 182px;
+    color: #234465;
+    margin-top: 7px;
+}
+
+input#login {
+    border: 2px solid #c7861a;
+    background: #234465;
+    width: 130px;
+    font-size: 16px;
+    height: 30px;
+    margin-left: 48px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a span {
+    font-size: 14px;
+    color: white;
+    margin-left: 197px;
+    margin-top: 10px;
+}
+
+input[type=checkbox] {
+    display: inline-block;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    font-size: 13px;
+    font-family:"Arial Narrow";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
