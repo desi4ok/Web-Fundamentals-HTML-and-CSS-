@@ -1,0 +1,82 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+#wrapper {
+	margin: 10px auto;
+	width: 40%;
+	height: auto;
+	background: #FFC0CB;
+	padding: 8px;
+	font-size: 12px;
+	font-style: italic;
+}
+
+header {
+	font-style: italic;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+form {
+	display: inline-table;
+	width: 49%;
+	height: 250px;
+	margin-left: 3px;
+}
+
+fieldset {
+	border: none;
+}
+
+select {
+	font-size: 16px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+form:first-of-type div#departure {
+	margin-top: 20px;
+}
+
+input[type=checkbox] {
+	margin-bottom: 7px;
+}
+
+input[type=date], input[type=time], input[type=number] {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+input[type=submit] {
+	height: 27px;
+	font-size: 16px;
+	margin-bottom: 5px;
+	
+}
+.big {
+	width: 247px;
+	height: 25px;
+}
+
+.medium {
+	width: 118px;
+	height: 25px;
+}
+
+.small {
+	width: 72px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+div#adult label {
+	padding-right: 60px;
+}
+
+.intervalLable {
+	margin-right: 200px;
+}

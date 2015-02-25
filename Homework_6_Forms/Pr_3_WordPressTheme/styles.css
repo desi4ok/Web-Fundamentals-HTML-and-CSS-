@@ -1,0 +1,51 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: 17px;
+}
+
+#wrapper {
+	margin: 10px auto;
+	width: 50%;
+	height: auto;
+}
+
+img {
+	width: 50%;
+}
+
+input[type=file] {
+	font-family: arial;
+	font-size: 15px;
+}
+
+#bottom-line {
+	display: inline-flex;
+	margin-top: 10px;
+}
+
+input[type=text] {
+	//display: inline;
+	width: 140px;
+	height: 25px;
+}
+
+input[type=button] {
+	width: 30px;
+	height: 30px;
+	border-radius: 90%;
+	background: none;
+	background-image: url('img/logo.png');
+	background-size: 29px 29px;
+	border: none;
+}
+
+input[type=button]:hover {
+	background: #04769B;
+	background-image: url('img/logo.png');
+	background-size: 29px 29px;
+}
+
+label#searchLabel {
+	margin-top: 12px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="styles.css" />
+		<title>Flight Order</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1>FLIGHT ORDER</h1>
+			</header>
+			<form>
+				<fieldset>
+					<label for="from">From</label>
+					<select class="big" name="from-city">
+						<option selected disabled>enter a city</option>
+						<option>Paris</option>
+						<option>Barselona</option>
+						<option>Milano</option>
+					</select>
+					<div id="departure">
+						<label for="departure-date">Departure Date</label>
+						<input class="big" name="departure-date" type="date" />
+					</div>
+					<div>
+						<label for="return-date">Return Date</label>
+						<input class="big" name="return-date" type="date" />
+					</div>
+					<div id="people">
+						<div id="adult">
+							<label for="adults">12+</label>
+							<label for="adults">2-12</label>
+							<label for="adults">0-2</label>
+						</div>
+						<div>
+							<input class="small" type="number" min="0" value="0" />
+							<input class="small" type="number" min="0" value="0" />
+							<input class="small" type="number" min="0" value="0" />
+						</div>
+					</div>
+				</fieldset>
+			</form>
+			<form>
+				<fieldset>
+					<label for="to">To</label>
+					<select class="big" name="to-city">
+						<option selected disabled>enter a city</option>
+						<option>Sofia</option>
+						<option>Berlin</option>
+						<option>London</option>
+					</select>
+					<input name="prefer-directs" type="checkbox" />
+					<label for="prefer-directs">Prefer directs</label>
+					<div>
+						<div class="intervalLabel">
+							<label for="interval">Time interval</label>
+						</div>
+						<input class="medium" type="time" id="dep-start" />
+						<input class="medium" type="time" />
+					</div>
+					<div>
+						<div class="intervalLabel">
+							<label for="interval">Time interval</label>
+						</div>
+						<input class="medium" type="time" id="ret-start" />
+						<input class="medium" type="time" />
+					</div>
+					<div>
+						<label for="class">Choose class</label>
+						<select class="big" name="class">
+							<option selected="selected">Economy</option>
+							<option>Bussiness</option>
+						</select>
+					</div>
+					<input class="big" type="submit" value="Search" />
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
