@@ -9,22 +9,24 @@
     width: 30%;
     background-image: url('img/formBackground.jpg');
     padding: 20px;
+    border-radius: 5px;
 }
 
 fieldset {
     border: none;
+    margin-top: 10px;
 }
 
 fieldset legend {
     color: white;
     font-size: 16px;
-    margin-top: 10px;
+    margin-left: 5px;
     margin-bottom: 10px;
 }
 
 fieldset div {
     background: rgba(255, 255, 255, 0.3);
-    width: 100%;
+    width: 95%;
     height: 30px;
     margin: 3px;
     border: 1px solid white;
@@ -34,7 +36,7 @@ fieldset div {
 
 fieldset div#cardType {
     background: rgba(255, 255, 255, 0.3);
-    width: 100%;
+    width: 95%;
     height: 60px;
     margin: 3px;
     border: 1px solid white;
@@ -74,22 +76,45 @@ textarea {
 }
 
 fieldset div#cardType input {
-    width: 15px;
+    width: 13px;
     margin-left: 10px;
-    background: blue;
     margin-top: 10px;
 }
 
 fieldset div#cardType div label {
-    width: 60px;
-    background: red;
-    padding-bottom: 4px;
+    width: 38px;
+    padding-bottom: 16px;
+    font-size: 15px;
     vertical-align: middle;
+    padding-left: 30px;
 }
 
+#cardType label:nth-child(2) {
+	background-image: url(img/visa.jpg);
+	background-size: 28px 16px;
+	background-repeat: no-repeat;
+}
 
+#cardType label:nth-child(4) {
+	background-image: url(img/amex.png);
+	background-size: 28px 16px;
+	background-repeat: no-repeat;
+}
 
+#cardType label:nth-child(6) {
+	background-image: url(img/mastercard.jpg);
+	background-size: 28px 16px;
+	background-repeat: no-repeat;
+}
 
+input#submit {
+	width: 100px;
+	background: #051934;
+	border-radius: 50px;
+	color: white;
+	margin-left: 40%;
+	margin-top: 10px;
+}
 
 
 

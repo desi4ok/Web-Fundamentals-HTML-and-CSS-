@@ -12,15 +12,15 @@
                     <legend>Step 1: Ypur details</legend>
                     <div>
                         <label for="name">Name</label>
-                        <input name="name" type="text" placeholder="First and last name" pattern="[A-z- ]+" required />
+                        <input name="name" type="text" title="Please, enter a valid name!" placeholder="First and last name" pattern="[A-z- ]+" required />
                     </div>
                     <div>
                         <label for="email">Email</label>
-                        <input name="email" type="email" placeholder="example@domain.com" pattern="\b[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,4}\b" required />
+                        <input name="email" type="email" placeholder="example@domain.com" title="Please, enter a valid e-mail!" pattern="\b[A-z0-9._%+-]+@[A-z0-9.-]+\.[A-z]{2,4}\b" required />
                     </div>
                     <div>
                         <label for="phone">Phone</label>
-                        <input name="phone" type="tel" placeholder="e.g. +447500000000" pattern=pattern="[0-9+ ]+" required />
+                        <input name="phone" type="tel" placeholder="e.g. +447500000000" title="Please, enter a valid phone number!" pattern="[0-9+ ]+" required />
                     </div>
                 </fieldset>
                 <fieldset>
@@ -64,7 +64,7 @@
                         <input name="card-name" type="text" placeholder="exact name as on the card" pattern="[A-z- ]+" required=""/>
                     </div>
                 </fieldset>
-                <input type="submit" value="BUY IT!" />
+                <input id="submit" type="submit" value="BUY IT!" />
             </form>
         </div>
     </body>
