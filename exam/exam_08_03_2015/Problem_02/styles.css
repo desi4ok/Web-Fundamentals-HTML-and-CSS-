@@ -1,0 +1,248 @@
+
+@font-face {
+  font-family: 'Oleo Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+	font-family: Calibri, Arial, sans-serif;
+	font-size: 12px;
+	background: #50247D;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    box-sizing: border-box;
+    background: #50247D;
+}
+
+h1 {
+	font-family: 'Oleo Script';
+	font-size: 68px;
+	line-height: 68px;
+}
+
+h2 {
+	font-family: 'Oleo Script';
+	font-size: 48px;
+}
+
+ul > li > a {
+	font-size: 18px;
+}
+
+h3 {
+	font-size: 26px;
+}
+/*-----header-------*/
+
+#wrapper > header {
+	background: url('img/orion-gas-and-star-bgr.jpg');
+	//padding-bottom: 20px;
+	border-bottom: 10px solid #36A4D7;
+	}
+
+#name {
+	padding-top: 30px;
+}	
+#name > h1, #name > h3 {
+	color: #FFFFFF;
+	text-align: center;
+}	
+
+#name > h3 {
+	line-height: 26px;
+}
+
+nav {
+	width: 100%;
+	margin: 40px 0 30px;
+	display: flex;
+	justify-content: center;
+}
+
+ul > li {
+	display: inline-block;
+	width: auto;
+	height: 30px;
+	font-weight: bold;
+	background: #ffffff;
+	padding: 10px 35px 5px;
+	margin: 0 5px;
+	color: #50247D;
+}
+
+ul > li:hover {
+	background: #36A4D7;
+	color: white;
+}
+
+ul > li > a {
+	vertical-align: middle;
+	color: inherit;
+}
+
+
+
+
+/*-------main------*/
+div#main {
+	background: #EAE7EE;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	border-top: 10px solid #8759B2;
+	border-bottom: 10px solid #36A4D7;
+}
+
+section {
+	
+	width: 420px;
+	margin: 45px 27px 60px;
+}
+
+#left {
+	background: #FFFFFF;
+}
+
+section#left > article {
+	margin: 0 30px 20px;;
+	
+}
+
+.right-button {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#left-section-blue {
+	width: 115px;
+	height: 30px;
+	border: 0;
+	background: #36A4D7;
+	color: #fffff
+}
+article > header > h2 {
+	line-height: 48px;
+}
+
+article > header > h3 {
+	line-height: 26px;
+}
+
+#left-section-blue > a {
+	color: #FFFFFF;
+}
+
+section > article > p {
+	margin-top: 20px;
+}
+
+span {
+	font-weight: bold;
+}
+
+#bottom-button {
+	width: 250px;
+	height: 30px;
+	border: 0;
+	background: #8759B2;
+	color: #fffff;
+	margin-top: 40px;
+}
+
+#bottom-button:hover {
+	background: #50247D;
+}
+
+#bottom-button > a {
+	color: #FFFFFF;
+}
+
+figure {
+	width: 182px;
+	height: 212px;
+	display: inline-block;
+	background: #ffffff;
+	position: relative;
+	
+}
+
+
+figure > img {
+	width: 182px;
+	
+}
+
+.button {
+	width: 115px;
+	height: 30px;
+	border: 0;
+	background: #36A4D7;
+	color: #ffffff;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.button > a {
+	color: #ffffff;
+	font-size: 16px;
+	
+}
+figcaption {
+	top: 20px;
+	right: 10px;
+}
+
+.left-pic {
+	margin-right: 52px;
+}
+
+h4 {
+	color: #36A4D7;
+	line-height: 20px;
+}
+
+.bottom-figcaption {
+	margin: 0 17px;
+}
+
+.top-pic {
+	margin-bottom: 20px;
+}
+
+footer {
+	height: 80px;
+}
+
+footer > p {
+	margin: 30px 15px;
+	color: #FFFFFF;
+}
+
+
+footer a {
+	color: #FFFFFF;
+}
